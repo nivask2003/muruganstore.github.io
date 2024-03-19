@@ -1,0 +1,58 @@
+.myaccount .sidebar {
+    width: 250px;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;  
+} 
+.myaccount .sidebar a{
+    text-decoration: none;
+    width: 250px;
+}
+.myaccount .sidebar a:hover{
+    background-color: blue;
+    color: white;
+}
+.myaccount .navbar{
+    list-style-type: none;
+    padding-left: 0;
+}
+.myaccount .content{
+    display: none;
+}
+.myaccount .content #brandtitle{
+    color: blue;
+    font-size: 30px;
+}
+.myaccount .content .card{
+    height: 150px;
+    text-align: center;
+    width: 600px;
+    box-shadow: 0 0 8px;
+}
+.myaccount .content .card .card-header{
+    color: white;
+}
+.myaccount .content .card .card-body{
+    text-align: left;
+}
+.myaccount .content .recentlyordered .table thead, .content .table thead{
+    background-color: blue;
+    color: white;
+}
+.myaccount .content .profile{
+    text-align: left;
+    align-items: normal;
+    justify-content: left;
+    height: 170px;
+}
+.myaccount .content .btn{
+    color: white;
+    background-color: blue;
+}
+.myaccount .content .profile .btn{
+    color: white;
+    background-color: blue;
+}
+.myaccount .content form .form-group label{
+    color: blue;
+}
